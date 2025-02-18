@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+* {
+    font-family: "Anek Devanagari", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none; 
+}
+
+header {
+    background-image: url(im/fondo.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #4B0A0B;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.header-content h1 {
+    font-size: 2.5em; /* Ajusta el tamaño del título según tu diseño */
+    margin-bottom: 30px; /* Espacio debajo del título */
+    color: #4B0A0B;
+}
+
+.foto-perfil-container {
+    margin: 20px 0; /* Espacio arriba y abajo de la imagen */
+}
+
+.foto-perfil {
+    width: 150px; /* Tamaño de la imagen */
+    height: 150px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+}
+
+header p {
+    font-size: 1.2em; /* Ajusta el tamaño del párrafo según tu diseño */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    font-size: 25px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: transparent;
+    }
+
+.menu .logo{
+    font-weight: 700;
+    font-size: 25px;
+    color: #4B0A0B;
+}
+
+.menu .menu-checkbox {
+    display: none;
+}
+
+.menu .navbar {
+    display: flex;
+}
+
+.menu .navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+
+}
+
+.menu .navbar ul li a:hover{
+    color: #4B0A0B;
+
+}
+
+/* header y menu listos */
+
+.info{
+    background-color: #f8ebe2;
+    padding: 0px 8px 100px 8px;
+    text-align: center;
+    color: #4B0A0B;
+    padding-top: 40px;
+}
+
+.service h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.txt-1 {
+    font-size: 30px;
+    padding: 0px 60px;
+    margin-bottom: 50px;
+}
+
+.group-services{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 20px;
+    
+
+}
+
+.container h2 {
+    font-size: 40px;
+}
+
+/* footer */
+
+footer{
+    padding: 20px;
+    background-color: #e5ada8;
+    text-align: center;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 18px;
+    color: #4B0A0B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer .contact-info p, footer .redes a{
+    margin: 5px 0px;
+
+}
+
+footer .redes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer .redes ul li a {
+    font-size: 20px;
+    color: #4B0A0B;
+    text-decoration: none;
+}
+
+footer .redes ul li a:hover{
+    color: #4B0A0B;
+}
+
